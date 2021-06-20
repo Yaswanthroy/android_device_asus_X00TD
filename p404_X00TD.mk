@@ -12,6 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common p404 stuff
 $(call inherit-product, vendor/404/configs/common.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
